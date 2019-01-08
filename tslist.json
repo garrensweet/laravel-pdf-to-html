@@ -1,0 +1,67 @@
+{
+    "extends": "tslint:latest",
+    "linterOptions": {
+        "exclude": ["node_modules/**"]
+    },
+    "rules": {
+        "array-type": false,
+        "class-name": true,
+        "max-line-length": false,
+        "comment-format": [true, "check-space"],
+        "indent": [true, "spaces", 2],
+        "one-line": [true, "check-open-brace", "check-whitespace"],
+        "no-var-keyword": true,
+        "quotemark": [false, "single", "avoid-escape"],
+        "semicolon": false,
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-module",
+            "check-separator",
+            "check-type"
+        ],
+        "typedef-whitespace": [
+            true,
+            {
+                "call-signature": "nospace",
+                "index-signature": "nospace",
+                "parameter": "nospace",
+                "property-declaration": "nospace",
+                "variable-declaration": "nospace"
+            }
+        ],
+        "interface-name": false,
+        "no-internal-module": true,
+        "no-trailing-whitespace": true,
+        "no-null-keyword": false,
+        "prefer-const": true,
+        "jsdoc-format": true,
+        "object-literal-sort-keys": false,
+        "space-before-function-paren": false,
+        "no-implicit-dependencies": false,
+        "no-submodule-imports": false,
+        "interface-over-type-literal": false,
+        "trailing-comma": false,
+        "max-classes-per-file": false,
+        "arrow-parens": false,
+        "arrow-return-shorthand": true,
+        "no-empty-interface": false,
+        "no-object-literal-type-assertion": false,
+        "no-angle-bracket-type-assertion": false,
+        "no-console": false,
+        "ordered-imports": false,
+        "prefer-object-spread": false,
+        "variable-name": false,
+        "no-unused-variable": false,
+        "member-access": false,
+        "ban-types": false,
+        "no-namespace": false,
+        "no-reference": false,
+        "no-misused-new": false,
+        "no-var-requires": false,
+        "no-string-literal": false,
+        "no-consecutive-blank-lines": false
+    }
+}
