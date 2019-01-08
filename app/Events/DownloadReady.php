@@ -27,8 +27,6 @@ class DownloadReady implements ShouldBroadcast
     {
         $this->csrfToken = $csrfToken;
         $this->filePath = $filePath;
-
-        logger('we jammin');
     }
 
     /**
